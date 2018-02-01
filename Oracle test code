@@ -1,0 +1,27 @@
+CREATE TABLE Transactions
+(OrderID number(10), 
+ Transaction number(10),
+ TheDate ,
+ Item# number(10),
+ Inventory number(10),
+ CustomerID number(10),
+ Points number(10),
+ EmpID number(10),
+ CostPerItem number(10),
+ TotalCost number(10),
+ MoneyGiven number(10),
+ Change number(10)
+);
+INSERT INTO Transcations
+(
+  1,1, "10/11/2017",2,91,2,45,1,20,20,100,80
+)
+
+CREATE TABLE Items
+(
+ ItemID number(10),
+ ItemName char(10),
+ Inventory number (10),
+ ItemsType char(10),
+ ItemCost number(10),
+);
